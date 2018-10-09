@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": "Device"
+        },
+        {
+            "path": "StreamAnalytics"
+        }
+    ],
+    "settings": {
+        "IoTWorkbench.BoardId": "devkit",
+        "IoTWorkbench.DevicePath": "Device",
+        "IoTWorkbench.StreamAnalyticsPath": "StreamAnalytics",
+        "IoTWorkbench.iothubConnectionString": "HostName=vatsalya-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=T5Y/O533k0ws1DndOuxc0J1vzqY0fjtTZkyavTmNeyI=",
+        "IoTWorkbench.eventHubConnectionString": "Endpoint=sb://ihsuprodblres004dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=T5Y/O533k0ws1DndOuxc0J1vzqY0fjtTZkyavTmNeyI=",
+        "IoTWorkbench.eventHubConnectionPath": "iothub-ehub-vatsalya-i-855814-909c9ede92",
+        "IoTWorkbench.iothubDeviceConnectionString": "HostName=vatsalya-iot-hub.azure-devices.net;DeviceId=home-sensor;SharedAccessKey=T3zYS8JlC4grdjUOGPowj9e6lmISk6wHR/qxg2xHrZY="
+    }
+}

@@ -1,0 +1,13 @@
+-- Need help with your query?
+-- Check out some of the most common Stream Analytics query patterns:
+-- https://go.microsoft.com/fwLink/?LinkID=619153
+
+SELECT
+    messageId,
+    temperature,
+    humidity,
+    IotHub.ConnectionDeviceId
+INTO
+    "cosmosdb-a2415e1e-1a8a-bf76-66e8-2c3ce1cd9e6b"
+FROM
+    "iothub-39dade7f-8266-22f5-2ecf-8c2988df3ea4"
